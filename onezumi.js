@@ -132,7 +132,7 @@ function oneko(posX, posY){
 
 		const colors = ["1a","1b","2a","2b","3a","3b","4a","4b","5a","5b","6a","6b"]
 		const color = colors[Math.floor(Math.random() * colors.length)];
-		let nekoFile = `./pixel_rats/smol_rats_color${color}.gif`
+		let nekoFile = `./pixel_rats/colors/smol_rats_color${color}.gif`
 
 		const curScript = document.currentScript
 		if(curScript && curScript.dataset.cat){
